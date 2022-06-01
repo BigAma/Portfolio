@@ -1,0 +1,35 @@
+.container__portfolio {
+    text-align: center;
+    padding-top: 1.5em;
+    line-height: 1.4;
+    font-size: 2em;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    margin-top: 1em;
+    justify-content: space-around;
+    gap: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.portfolio__item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio__item:hover{
+    scale: 1.6;
+}
+
+.portfolio__tilte{
+    text-align: start;
+}
