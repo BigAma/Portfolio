@@ -4,18 +4,17 @@ import './portfolio.css'
 
 import Project from './Project'
 
-import Img from '../../assets/bg.jpg'
+import ImgProject1 from '../../assets/home-page.jpg'
+import ImgProject2 from '../../assets/portfolio.png'
 
 
 const Portfolio = () => {
   return (
     <div id='portfolio' className='container container__portfolio'>
-        <h1>Portfolio</h1>
-        <h2 className='portfolio__tilte'>Mes projets</h2>
+        <h2 className='portfolio__tilte'>My Projects</h2>
         <div className='portfolio__wrapper'>
-            <Project img={Img} projectName="Mon premier projet" projectDesc="ici je fais quelques chose de assez bien"/>
-            <Project img={Img} projectName="Mon deuxieme projet" projectDesc="ici je fais quelques chose de plutot pas mal"/>
-            <Project img={Img} projectName="Mon troisieme projet" projectDesc="et la je fais quelques chose d'incroyable'" />
+            <Project img={ImgProject1} projectName="Hel" projectDesc="Platform for professional networking"/>
+            <Project img={ImgProject2} projectName="Portfolio" projectDesc="My Portfolio"/>
         </div>
     </div>
   )

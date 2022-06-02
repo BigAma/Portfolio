@@ -24,3 +24,12 @@
     left: 0;
     bottom: 5rem;
 }
+
+.img-header__container{
+    background-image: url('../../assets/sun-tornado.svg');
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2em;
+    border-radius: 15px;
+}
