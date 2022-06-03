@@ -1,6 +1,6 @@
 .container__portfolio {
     text-align: center;
-    padding-top: 2.5em;
+    padding-top: 1em;
     line-height: 1.4;
     font-size: 2em;
     height: 100vh;
@@ -15,9 +15,9 @@
     margin-top: 1em;
     justify-content: space-around;
     gap: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 .portfolio__item{
@@ -29,11 +29,11 @@
 }
 
 .portfolioitem-desc__container{
-    padding-top: 1em;
+    padding-top: 0,5em;
 }
 
 .portfolioitem-desc__container p {
-    margin-top: 2rem;
+    margin-top: 1,5rem;
 }
 
 .portfolio__tilte{

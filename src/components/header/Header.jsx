@@ -28,7 +28,7 @@ const Header = () => {
             <CTA />
             <HeaderSocials />
             <div className='img-header__container'>
-                <img src={image} height="500px" alt='BigAma'></img>
+                <img src={image} alt='BigAma'></img>
             </div>
         </div>
 
