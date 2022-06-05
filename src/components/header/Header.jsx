@@ -6,6 +6,7 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 
 import image from '../../assets/BigAma.png'
+import imageBG from '../../assets/houndour.png'
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -28,7 +29,8 @@ const Header = () => {
             <CTA />
             <HeaderSocials />
             <div className='img-header__container'>
-                <img src={image} alt='BigAma'></img>
+                <img className="image-bg-profil" src={imageBG} alt="" />
+                <img className="image-me-profil" src={image} alt='BigAma'></img>
             </div>
         </div>
 

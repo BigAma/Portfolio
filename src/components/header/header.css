@@ -26,10 +26,20 @@
 }
 
 .img-header__container{
-    background-image: url('../../assets/sun-tornado.svg');
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 2em;
     border-radius: 15px;
+    min-height: fit-content;
+}
+
+.image-bg-profil{
+    position: absolute;
+    margin: 0 auto;
+    object-fit: cover;
+    top: 15%;
+    left: -10%;
+    z-index: -1;
+    width: 50vw;
 }
