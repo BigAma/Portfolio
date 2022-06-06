@@ -1,6 +1,50 @@
 .container__footer{
+    background-color:#17202a;
     display: flex;
     flex-direction: row;
-    gap: 50%;
     min-height: 50vh;
+    width: 100vw;
+    padding: 2em;
+    padding-bottom: 8em;
+}
+
+.first__footer{
+    padding-left: 1em;
+    width: 50%;
+    text-align: center;
+}
+
+.second__footer{
+    padding-left: 1em;
+    width: 50%;
+}
+
+.form_wrapper{
+    text-align: start;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.27);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.form-label{
+    font-size: 22px;
+    padding: 1em;
+    color: white;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.form-input{
+    padding-top: 5px;
+    width: 100%;
+    color: var(--color-primary);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.btn-send-msg{
+    margin-top: 2em;
+    font-size: larger;
 }

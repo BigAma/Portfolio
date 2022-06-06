@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { BsAspectRatioFill } from 'react-icons/bs'
+import {MyModal1, MyModal2} from './MyModal'
 
 function Project(props) {
   return (
@@ -11,7 +11,8 @@ function Project(props) {
         <div className='portfolioitem-desc__container'>
             <h5>{props.projectName}</h5>
             <p>{props.projectDesc}</p>
-            <a className="btn btn-primary btn-portfolioitem" href='#quelquepart'><BsAspectRatioFill /></a>
+
+            {props.projectName==="Hel" ? <MyModal1 /> : <MyModal2/> }
         </div>
     </div>
   )
