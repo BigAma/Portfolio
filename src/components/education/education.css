@@ -4,6 +4,35 @@
     line-height: 1.4;
     font-size: 2em;
     height: 100vh;
-    position: relative;
     overflow: hidden;
+}
+
+.resume-wrapper{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 2em;
+}
+
+.resume-left-menu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid var(--color-primary);
+    padding: 1em;
+}
+
+.resume-right-info{
+    border-radius: 0 10px 10px 0;
+    border-top: 1px solid var(--color-light);
+    border-right: 1px solid var(--color-light);
+    border-bottom: 1px solid var(--color-light);
+    background-color: var(--color-light);
+    color: var(--color-bg);
+    padding: 1em;
+}
+
+.resume-action-btn{
+    height: 50%;
 }
