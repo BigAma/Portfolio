@@ -1,12 +1,12 @@
 .container__nav{
     position: fixed;
-    top: 85vh;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 25vh;
+    right: 2.5em;
     border-radius: 50px;
     background-color: var(--transparent);
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 2.5rem;
     padding: 1rem;
-    font-size: 1.8em;
+    font-size: 2em;
 }

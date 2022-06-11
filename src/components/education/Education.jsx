@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './education.css'
 
 const Education = () => {
+  let resume = <h1>Hounoudr</h1>
+  let skills = "Mes skills"
+
+  const [Text, setText ] = useState(resume)
+
   return (
     <div id='education' className='container container__education'>
         <h1>Education</h1>
         <div className='resume-wrapper'>
           <div className='resume-left-menu'>
-            <div className='resume-action-btn'><button>Resume</button></div>
-            <div className='resume-action-btn'><button>Skills</button></div>
+            <div className='resume-action-btn-div'><button onClick={() => setText(resume)} className='resume-action-btn resumebtn1'>Resume</button></div>
+            <div className='resume-action-btn-div'><button onClick={() => setText(skills)} className='resume-action-btn resumebtn2'>Skills</button></div>
           </div>
           <div className='resume-right-info'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloribus voluptatem aut exercitationem amet! Dolores cupiditate sequi dolorum sunt, alias error atque voluptas in sint. Asperiores </p>
+            <p>{Text}</p>
           </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
     padding-top: 1.5em;
     line-height: 1.4;
     font-size: 2em;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding-top: 2em;
+    min-height: 70vh;
 }
 
 .resume-left-menu{
@@ -20,7 +21,10 @@
     flex-direction: column;
     border-radius: 10px 0 0 10px;
     border: 1px solid var(--color-primary);
-    padding: 1em;
+}
+
+.resume-left-menu:hover{
+    border-right: none;
 }
 
 .resume-right-info{
@@ -33,6 +37,35 @@
     padding: 1em;
 }
 
-.resume-action-btn{
+.resume-action-btn-div{
     height: 50%;
+    cursor: pointer;
+    border-radius: 10px 0 0 10px;
+}
+
+.resume-action-btn{
+    border: none;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.resume-action-btn:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+.resumebtn1:hover{
+    border-radius: 10px 0 0 0;
+}
+
+.resumebtn2:hover{
+    border-radius: 0 0 0 10px;
 }
