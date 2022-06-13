@@ -137,3 +137,8 @@ img {
 .text-center{
     text-align: center;
 }
+
+.title{
+    font-size: 3em;
+    text-align: center;
+}

@@ -10,7 +10,7 @@ const Education = () => {
 
   return (
     <div id='education' className='container container__education'>
-        <h1>Education</h1>
+        <h1 className='title'>Education</h1>
         <div className='resume-wrapper'>
           <div className='resume-left-menu'>
             <div className='resume-action-btn-div'><button onClick={() => setText(resume)} className='resume-action-btn resumebtn1'>Resume</button></div>

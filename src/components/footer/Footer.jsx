@@ -1,27 +1,35 @@
 import React from 'react'
-
+import { FaFacebookSquare, FaLinkedin, FaGithub } from 'react-icons/fa'
 import './footer.css'
 
 const Footer = () => {
   return (
-    <div id='contact' className='container__footer'>
+    <div className='footer__wrapper'>
+      <h1 className='title'>Contact</h1>
+      <div id='contact' className='container__footer'>
         <div className='first__footer'>
-            <h1>Contact</h1>
             <div className='form_wrapper'>
               <form>
-                <label className='form-label'>Nom :</label>
-                <input className='form-input' type="text" placeholder='Votre nom'></input>
+                <label className='form-label'>Name :</label>
+                <input className='form-input' type="text" placeholder='Your Name'></input>
                 <label className='form-label'>Email :</label>
-                <input className='form-input' type="email" placeholder='Votre email'></input>
+                <input className='form-input' type="email" placeholder='email@exemple.dj'></input>
                 <label className='form-label'>Message :</label>
-                <input className='form-input' type="textarea" placeholder='Votre message'></input>
-                <button className='btn-succes btn-send-msg'>Envoyer</button>
+                <textarea className='form-input form-input-area' type="textarea" placeholder='Your Message'></textarea>
+                <button className='btn-succes btn-send-msg'>Send</button>
               </form>
             </div>
         </div>
         <div className='second__footer'>
+          <div className='socials-essentials-footer'>
+            <a href='https://www.facebook.com/profile.php?id=1021276289' className='icon-footer'><FaFacebookSquare/></a>
+            <a href='https://www.linkedin.com/in/amareh-ali/' className='icon-footer'><FaLinkedin/></a>
+            <a href='https://github.com/BigAma' className='icon-footer'><FaGithub/></a>
+          </div>
+          <div className='footer-image-remerciement'></div>
         </div>
 
+      </div>
     </div>
   )
 }

@@ -1,8 +1,13 @@
 .container__portfolio {
+    background: url('../../assets/bgAbstrait.svg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     text-align: center;
     padding-top: 1em;
-    line-height: 1.4;
-    font-size: 2em;
+    font-size: 2.2em;
     height: 100vh;
     position: relative;
     overflow: hidden;
@@ -14,9 +19,8 @@
     flex-direction: row;
     margin-top: 1em;
     justify-content: space-around;
-    gap: 2rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 4em;
+    padding-left: 4em;
     padding-top: 1rem;
 }
 
@@ -35,10 +39,6 @@
 
 .portfolioitem-desc__container p {
     margin-top: 1,5rem;
-}
-
-.portfolio__tilte{
-    text-align: start;
 }
 
 .portfolio-project-img{

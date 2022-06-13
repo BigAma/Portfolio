@@ -6,7 +6,6 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 
 import image from '../../assets/BigAma.png'
-import imageBG from '../../assets/houndour.png'
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -17,7 +16,7 @@ const Header = () => {
             <h1>Amareh Ali Barreh</h1>
             <h5 className='text-light'>
                 <Typewriter 
-                    words={['Fullstack Developper', 'Designer', 'UI-UX Dev', 'Self-taught Programmer']}
+                    words={['Fullstack Developper', 'Designer', 'Self-taught Programmer', 'UI-UX Dev']}
                     loop='true'
                     cursor
                     cursorStyle='|'
@@ -29,7 +28,6 @@ const Header = () => {
             <CTA />
             <HeaderSocials />
             <div className='img-header__container'>
-                <img className="image-bg-profil" src={imageBG} alt="" />
                 <img className="image-me-profil" src={image} alt='BigAma'></img>
             </div>
         </div>

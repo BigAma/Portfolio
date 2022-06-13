@@ -9,8 +9,8 @@ import ImgProject2 from '../../assets/portfolio.png'
 
 const Portfolio = () => {
   return (
-    <div id='portfolio' className='container container__portfolio'>
-        <h2 className='portfolio__tilte'>My Projects</h2>
+    <div id='portfolio' className='container__portfolio'>
+        <h1 className='title'>My Projects</h1>
         <div className='portfolio__wrapper row'>
             <Project 
               img={ImgProject1}
