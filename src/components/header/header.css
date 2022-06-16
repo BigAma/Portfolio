@@ -21,15 +21,15 @@
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
-    bottom: 5rem;
+    left: 15%;
+    bottom: 15%;
+    font-size: 1em;
 }
 
 .img-header__container{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 2em;
     border-radius: 15px;
     min-height: fit-content;
 }
@@ -41,5 +41,24 @@
     top: 15%;
     left: -10%;
     z-index: -1;
-    width: 50vw;
+    width: auto;
+}
+
+.particules{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#tsparticles{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 }

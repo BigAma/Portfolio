@@ -7,11 +7,12 @@ import HeaderSocials from './HeaderSocials'
 
 import image from '../../assets/BigAma.png'
 import { Typewriter } from 'react-simple-typewriter'
+import Particules from '../particules/Particules'
 
 
 const Header = () => {
     return (
-        <div id='top' className="container container__header">
+        <div id='top' className=" container__header">
             <h5>Hello, I'm</h5>
             <h1>Amareh Ali Barreh</h1>
             <h5 className='text-light'>
@@ -27,11 +28,13 @@ const Header = () => {
             </h5>
             <CTA />
             <HeaderSocials />
+            <div className='particules'>
+                <Particules />
+            </div>
             <div className='img-header__container'>
                 <img className="image-me-profil" src={image} alt='BigAma'></img>
             </div>
         </div>
-
     )
 }
 
