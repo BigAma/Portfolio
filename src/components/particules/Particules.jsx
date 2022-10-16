@@ -39,7 +39,7 @@ const Particules = () => {
         detectsOn: "window",
         events: {
           onClick: {
-            enable: false,
+            enable: true,
             mode: []
           },
           onDiv: {

@@ -5,7 +5,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='footer__wrapper'>
-      <h1 className='title'>Contact</h1>
+      <h1 className='title-footer'>Contact</h1>
       <div id='contact' className='container__footer'>
         <div className='first__footer'>
             <div className='form_wrapper'>
@@ -26,7 +26,6 @@ const Footer = () => {
             <a href='https://www.linkedin.com/in/amareh-ali/' className='icon-footer'><FaLinkedin/></a>
             <a href='https://github.com/BigAma' className='icon-footer'><FaGithub/></a>
           </div>
-          <div className='footer-image-remerciement'></div>
         </div>
 
       </div>

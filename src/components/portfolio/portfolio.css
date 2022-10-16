@@ -8,7 +8,7 @@
     text-align: center;
     padding-top: 1em;
     font-size: 2.2em;
-    height: 100vh;
+    height: max-content;
     position: relative;
     overflow: hidden;
 }
@@ -22,6 +22,7 @@
     padding-right: 4em;
     padding-left: 4em;
     padding-top: 1rem;
+    gap: 1em;
 }
 
 .portfolio__item{
@@ -96,4 +97,33 @@
 
 .modal-img-container{
     padding: 2em;
+}
+
+
+/*---------------------------- Responsive Design ----------------------------*/
+
+/* Medium Devices */
+@media only screen and (max-width: 1024px) {
+    .container__portfolio{
+        height: max-content;
+        overflow: visible;
+    }
+
+    .portfolio__wrapper{
+        flex-direction: column;
+        padding: 1em;
+    }
+}
+
+
+/* Small Devices */
+@media only screen and (max-width: 768px) {
+    .container__portfolio{
+        height: max-content;
+        overflow: visible;
+    }
+
+    .portfolio__wrapper{
+        flex-direction: column;
+    }
 }

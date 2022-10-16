@@ -10,3 +10,17 @@
     padding: 1rem;
     font-size: 2em;
 }
+
+/*---------------------------- Responsive Design ----------------------------*/
+
+/* Small Devices */
+@media only screen and (max-width: 768px) {
+    .container__nav{
+        flex-direction: row;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 84vh;
+        justify-content: center;
+        min-width: max-content;
+    }
+}

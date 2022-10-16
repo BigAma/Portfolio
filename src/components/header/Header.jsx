@@ -12,20 +12,23 @@ import Particules from '../particules/Particules'
 
 const Header = () => {
     return (
-        <div id='top' className=" container__header">
-            <h5>Hello, I'm</h5>
-            <h1>Amareh Ali Barreh</h1>
-            <h5 className='text-light'>
-                <Typewriter 
-                    words={['Fullstack Developper', 'Designer', 'Self-taught Programmer', 'UI-UX Dev']}
-                    loop='true'
-                    cursor
-                    cursorStyle='|'
-                    typeSpeed={70}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
-                />
-            </h5>
+        <div id='top' className="container__header">
+            <div>
+                <h5>Hello, I'm</h5>
+                <h1>Amareh Ali Barreh</h1>
+                <h5 className='text-light'>
+                    <Typewriter 
+                        words={['Fullstack Developper', 'Designer', 'Self-taught Programmer', 'UI-UX Dev']}
+                        loop='true'
+                        cursor
+                        cursorStyle='|'
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    />
+                </h5>
+            </div>
+            
             <CTA />
             <HeaderSocials />
             <div className='particules'>
